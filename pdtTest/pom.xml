@@ -41,57 +41,5 @@
             <artifactId>itext-asian</artifactId>
             <version>5.2.0</version>
         </dependency>
-        <!--iText-->
-        <!--<dependency>-->
-            <!--<groupId>com.itextpdf</groupId>-->
-            <!--<artifactId>barcodes</artifactId>-->
-            <!--<version>${itext.version}</version>-->
-            <!--&lt;!&ndash; barcodes depends on kernel &ndash;&gt;-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>com.itextpdf</groupId>-->
-            <!--<artifactId>font-asian</artifactId>-->
-            <!--<version>${itext.version}</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>com.itextpdf</groupId>-->
-            <!--<artifactId>forms</artifactId>-->
-            <!--<version>${itext.version}</version>-->
-            <!--&lt;!&ndash; forms depends on kernel and layout &ndash;&gt;-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>com.itextpdf</groupId>-->
-            <!--<artifactId>hyph</artifactId>-->
-            <!--<version>${itext.version}</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>com.itextpdf</groupId>-->
-            <!--<artifactId>io</artifactId>-->
-            <!--<version>${itext.version}</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>com.itextpdf</groupId>-->
-            <!--<artifactId>kernel</artifactId>-->
-            <!--<version>${itext.version}</version>-->
-            <!--&lt;!&ndash; kernel depends on io &ndash;&gt;-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>com.itextpdf</groupId>-->
-            <!--<artifactId>layout</artifactId>-->
-            <!--<version>${itext.version}</version>-->
-            <!--&lt;!&ndash; layout depends on kernel &ndash;&gt;-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>com.itextpdf</groupId>-->
-            <!--<artifactId>pdfa</artifactId>-->
-            <!--<version>${itext.version}</version>-->
-            <!--&lt;!&ndash; pdfa depends on kernel &ndash;&gt;-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>com.itextpdf</groupId>-->
-            <!--<artifactId>sign</artifactId>-->
-            <!--<version>${itext.version}</version>-->
-            <!--&lt;!&ndash; sign depends on kernel, layout and forms &ndash;&gt;-->
-        <!--</dependency>-->
     </dependencies>
 </project>
