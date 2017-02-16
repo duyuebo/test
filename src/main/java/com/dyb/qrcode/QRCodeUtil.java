@@ -2,7 +2,7 @@
  * LY.com Inc.
  * Copyright (c) 2004-2016 All Rights Reserved.
  */
-package com.dyb;
+package com.dyb.qrcode;
 
 import com.google.zxing.*;
 import com.google.zxing.common.BitMatrix;
