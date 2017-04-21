@@ -26,8 +26,11 @@ import java.io.IOException;
  */
 public class QiNiuTest {
 
+    public static String ACCESS_KEY = "Y-TFVLn-Eo_4g0CWiHVbe_t1QCa8wWOvg2BkKCEw";
 
-    public static String BUCKET = "video-public";
+    public static String SECRET_KEY = "CJ4ZtPhFOr9y5Vb6reUHsiQpXfJpm9Jz3RUZSZvH";
+
+    public static String BUCKET = " test-pri-video";
     public static String KEY = "Wildlife.wmv";
     public static String KEY2 = "Wildlife2.wmv";
     public static String filepath = "D:\\test\\video\\Wildlife.wmv";
@@ -66,14 +69,14 @@ public class QiNiuTest {
         Auth auth = Auth.create(ACCESS_KEY, SECRET_KEY);
 
         //设置转码操作参数
-        String fops = "avthumb/m3u8/noDomain/1/vb/500k/t/10";
+        String fops = "avthumb/m3u8/noDomain/1/vb/500k";
         //设置转码的队列
         String pipeline = "video";
         //可以对转码后的文件进行使用saveas参数自定义命名，当然也可以不指定文件会默认命名并保存在当前空间。
-        String urlbase64 = UrlSafeBase64.encodeToString(BUCKET+":" + KEY);
-        String pfops = fops + "|saveas/" + urlbase64;
+//        String urlbase64 = UrlSafeBase64.encodeToString(BUCKET+":" + KEY);
+        String pfops = fops;
 
-        Zone z = Zone.autoZone();
+        Zone z = Zone.zone0();
         Configuration c = new Configuration(z);
         //创建上传对象
         UploadManager uploadManager = new UploadManager(c);
