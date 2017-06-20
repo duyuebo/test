@@ -19,4 +19,15 @@ public class AnnotationTest {
         System.out.println(a==b);
         System.out.println(a.equals(b));
     }
+    @Test
+    public void testSubStr(){
+        String originStr = "a123456xxx";
+        int startIndex = 1;
+        int length = 6;
+
+        System.out.println(originStr.substring(7));
+        String randomNum = "eeeeee";
+        String orderNo = originStr.substring(0,startIndex) + randomNum + ((startIndex + length)>=originStr.length()?"":originStr.substring(startIndex + length));
+        System.out.println(orderNo);
+    }
 }
